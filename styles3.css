@@ -1,0 +1,28 @@
+/* services section css */
+
+.services .container .row .col-lg-4-mt-4 {
+    display: flexbox;
+    flex-direction: row;
+}
+.servicesText.card {
+    width: 25%;
+    height: 280px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
