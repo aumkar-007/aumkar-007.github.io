@@ -101,4 +101,19 @@ img {
       font-size: 1.5em;
       padding: 10px;
     }
+
+    .content .container-about .row .col1{
+        background: rgba(0, 0, 0,0.5);
+        color:  #00ff00;
+        font-family:monospace;
+        display: flex;
+        position: relative;
+        text-align: left;
+        font-size: 1.5em;
+        padding: 10px;
+        width: 85%;
+        float:left;
+        flex-direction: row;
+    }
+    
   }
